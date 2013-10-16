@@ -12,5 +12,6 @@ function showLoginForm(){
  */
 function hideLoginForm(){
     $("#loginSection").slideUp(200);
+    $("#shower").fadeIn();
 }
 
