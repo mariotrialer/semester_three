@@ -1,10 +1,11 @@
 html{
    padding: 0; 
+   
 }
 
 
 body{
-    
+    background: #CCCCCC;
 }
 
 #headcontainer{
@@ -40,7 +41,7 @@ body{
     float: left;
 }
 
-#insigner{
+#shower{
     margin-top: 8px;
     float: right;
     margin-right: 45px;
@@ -49,12 +50,27 @@ body{
     border: 1px solid white;
 }
 
+#loginSection{
+    width: 90%;
+    height: 80px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: -35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightslategrey;
+}
+
 #listcontainer{
     width: 90%;
     height: 400px;
     border: 1px solid black;
     border-radius: 10px;
     margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 2px 2px 2px lightslategrey;
     margin-top: 60px;
 }
+
 

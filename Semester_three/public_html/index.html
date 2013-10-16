@@ -2,20 +2,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Seitentitel -->
         <title>Filmeverwaltung</title>
+       
+        <!-- Metanformationen -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        
+        <!-- import Main Stylesheet -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <!-- import jQuery -->
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        
+        <!-- import the JS-File that processes the authentification -->
+        <script type="text/javascript" src="js/loginFunctions.js"></script>
+        
+        <!-- TODO when Document is ready -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                //Hide the Login-Area
+                $("#loginSection").hide(); 
+            });
+        </script>
     </head>
     <body>
         <!-- Defines the Head-Section of the Page -->
         <header id="headcontainer">
             <div id="title">Filmeverwaltung</div>
-            <button id="insigner">Login</button>
+            <button id="shower" onclick="showLoginForm();">Anmelden</button>
         </header>
+        <!-- Container for the Login Form, it's hidden by default -->
+        <section id="loginSection">
+            <button id="hider" onclick="hideLoginForm();">Diesen Bereich ausblenden</button>
+        </section>
         <!-- Defines the Main Content Area of the page -->
         <section>
-            <div id="listcontainer"></div>
+            <div class="onload_content" id="listcontainer"></div>
         </section>
     </body>
 </html>
