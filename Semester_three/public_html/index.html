@@ -35,7 +35,7 @@
         <!-- Container for the Login Form, it's hidden by default -->
         <section id="loginSection">
             <div id="hidebuttoncontainer">
-                <img alt="Ausblenden" src="img/exit button.png"/>
+                <img id="logoutButton" onclick="hideLoginForm();" alt="Ausblenden" src="img/exit button.png"/>
             </div>
             <!-- Div that contains the form to log in -->
             <div id="loginForm">
@@ -49,12 +49,14 @@
                         <td><input type="password" id="passfield" class="textfield" /></td>
                     </tr>
                     <tr>
-                        <td><button onclick="hideLoginForm();">Ausblenden</button></td>
+                        <td></td>
                         <td><button>Einloggen</button></td>
                     </tr>
                 </table>
             </div>
         </section>
+        <!-- Float zurücksetzen -->
+        <div style="clear: both;"></div>
         <!-- Defines the Main Content Area of the page -->
         <section>
             <div class="onload_content" id="listcontainer"></div>

@@ -53,7 +53,7 @@ body{
 
 #loginSection{
     width: 40%;
-    height: 105px;
+    height: 135px;
     background: #FFFFFF;
     margin: 0 auto;
     margin-top: 65px;
@@ -61,6 +61,8 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 2px 2px 2px lightslategrey;
+    float: right;
+    margin-right: 5%;
 }
 
 #listcontainer{
@@ -78,6 +80,16 @@ body{
     margin-top: 15px;
     margin: 0 auto;
     width: 200px;
+}
+
+#hidebuttoncontainer{
+    width: 98%;
+    text-align: right;
+    padding: 5px;
+}
+
+#logoutButton{
+    
 }
 
 
