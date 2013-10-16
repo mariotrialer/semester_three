@@ -6,6 +6,7 @@ html{
 
 body{
     background: #CCCCCC;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #headcontainer{
@@ -52,7 +53,7 @@ body{
 
 #loginSection{
     width: 90%;
-    height: 80px;
+    height: 105px;
     background: #FFFFFF;
     margin: 0 auto;
     margin-top: 65px;
@@ -71,6 +72,12 @@ body{
     background: #ffffff;
     box-shadow: 2px 2px 2px lightslategrey;
     margin-top: 60px;
+}
+
+#loginForm{
+    margin-top: 15px;
+    margin: 0 auto;
+    width: 200px;
 }
 
 

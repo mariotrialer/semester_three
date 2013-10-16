@@ -34,7 +34,23 @@
         </header>
         <!-- Container for the Login Form, it's hidden by default -->
         <section id="loginSection">
-            <button id="hider" onclick="hideLoginForm();">Diesen Bereich ausblenden</button>
+            <!-- Div that contains the form to log in -->
+            <div id="loginForm">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" id="namefield" class="textfield"/></td>
+                    </tr>
+                    <tr>
+                        <td>Passwort</td>
+                        <td><input type="password" id="passfield" class="textfield" /></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="hideLoginForm();">Ausblenden</button></td>
+                        <td><button>Einloggen</button></td>
+                    </tr>
+                </table>
+            </div>
         </section>
         <!-- Defines the Main Content Area of the page -->
         <section>

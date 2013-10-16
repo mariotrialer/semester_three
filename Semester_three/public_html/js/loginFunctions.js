@@ -4,6 +4,7 @@
  */
 function showLoginForm(){
     $("#loginSection").slideDown(200);
+    $("#shower").fadeOut();
 }
 
 /**
